@@ -19,8 +19,3 @@ features.columns = ['Recency', 'Frequency', 'Monetary_Total', 'Monetary_Average'
 features['Country'] = LabelEncoder().fit_transform(features['Country'])
 
 features
-
-#RFM
-#Recency (há quanto tempo comprou)
-#Frequency (quantas vezes comprou)
-#Monetary (quanto pagou)
