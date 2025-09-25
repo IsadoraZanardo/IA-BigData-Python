@@ -1,0 +1,8 @@
+#GRÁFICO DE DISPERSÃO (scatter)
+plt.figure(figsize=(10, 6))
+plt.scatter(df.index, df["idade"], c=df["cluster_r"], cmap='viridis', marker='o', s=50, alpha=0.6)
+plt.title('Cliente x Idade')
+plt.xlabel('Cliente')
+plt.ylabel('Idade')
+plt.grid(True)
+plt.show()

@@ -1,0 +1,5 @@
+#RENDA POR CLUSTER
+#gráfico boxplot
+sns.boxplot(data=df, x="cluster_r", y="renda_mensal")
+plt.title("Distribuição de Gastos por Cluster")
+plt.show()
